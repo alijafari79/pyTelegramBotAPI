@@ -12,6 +12,7 @@ with open('telebot/version.py', 'r', encoding='utf-8') as f:  # Credits: LonamiW
     version = re.search(r"^__version__\s*=\s*'(.*)'.*$",
                         f.read(), flags=re.MULTILINE).group(1)
 
+    
 setup(name='pyTelegramBotAPI',
       version=version,
       description='Python Telegram bot api. ',
