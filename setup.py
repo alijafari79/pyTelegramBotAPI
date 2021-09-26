@@ -35,3 +35,4 @@ setup(name='pyTelegramBotAPI',
           'License :: OSI Approved :: GNU General Public License v2 (GPLv2)',
       ]
       )
+
